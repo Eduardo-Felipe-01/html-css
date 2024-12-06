@@ -1,0 +1,92 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format(opentype);
+}
+
+body {
+    background-color: rgb(189, 233, 189);
+}
+
+header {
+    background-image: linear-gradient(to top, rgb(1, 65, 1),rgb(30, 116, 30), rgb(71, 165, 71));
+    padding: 10px;
+    margin: auto;
+    box-shadow: 1px 2px 20px 0px rgba(0, 0, 0, 0.405);
+}
+
+header > p {
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    color: white;
+    text-align: center;
+}
+
+nav > a {
+    color: white;
+    font-size: 0.8em;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 0px 30px 40px 30px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 1px 2px 20px 0px rgba(0, 0, 0, 0.405);
+}
+
+h1 {
+    color: green;
+    font-family: 'idroid', arial, sans-serif;
+}
+
+h2 {
+    background-color: rgb(213, 255, 213);
+    color: green;
+    font-family: 'idroid', arial, sans-serif;
+    padding: 1px 5px;
+}
+
+aside > iframe {
+    margin: auto;
+}
+
+.video {
+    background-color: green;
+    padding: 0px;
+    margin: auto;
+}
+
+.paragrafo {
+    background-color: green;
+    color: white;
+    padding: 0px 5px 0.02px 5px;
+    margin: 0px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    box-shadow: 0px -10px 50px 0px rgba(0, 0, 0, 0.405);
+}
+
+.lista {
+    background-color: rgb(213, 255, 213);
+    padding: 0.02px 10px 10px 10px;
+    margin: 0px;
+    border-bottom-left-radius: px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 0px -10px 50px 0px rgba(0, 0, 0, 0.286);
+}
+
+footer {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 0.02px;
+    margin: auto;
+}

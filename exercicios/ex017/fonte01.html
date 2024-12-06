@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* 
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            /*
+            font-weight: normal;
+            font-style: italic;
+            text-decoration: underline;
+            */
+
+            /* lighter normal bold bolder */
+
+            /* weight (peso)   width (largura)   height (altura) */
+        }
+
+        h1 {
+            /* shorthand font
+            - font-style -> font-wight -> font-size -> font-family 
+
+            font-family: 'work sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bold 3em 'work sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'work sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem unde nisi repellendus, cupiditate maxime voluptas rem corporis corrupti neque sit deleniti dolores aperiam natus hic repellat obcaecati. Soluta, saepe nesciunt. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum magnam, unde pariatur quasi sit tempore consequatur blanditiis nam alias hic distinctio repellat fugiat modi corrupti cupiditate provident, ea ab voluptas.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate animi unde quas quaerat optio iste accusantium consequatur magni adipisci! Modi repellat nobis vero exercitationem odio quos doloribus enim a dolorem.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta doloremque nemo impedit nisi. Voluptate repellendus excepturi, repudiandae commodi maiores culpa deleniti quis, odit at tempora, voluptatibus ab suscipit assumenda rerum!</p>
+</body>
+</html>
